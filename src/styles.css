@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.accordian-contianer {
+}
+
+.accordian-icon {
+  margin-left: 5px;
+}
+
+.accordian-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.accordian-expand {
+  max-height: 100px;
+}
